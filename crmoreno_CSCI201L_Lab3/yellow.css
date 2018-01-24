@@ -1,0 +1,68 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    margin: 50px;
+    line-height: 30px;
+    background-color: Khaki;
+}
+
+h1 {
+  background-color: GoldenRod;
+  padding: 25px;
+  border: 25px solid yellow;
+  text-align: center;
+}
+
+p {
+  background-color: LemonChiffon;
+  color: GoldenRod;
+}
+
+h2 {
+  background-color: Yellow;
+  width: 25%;
+  outline-style: double;
+  outline-color: solid black;
+  outline-width: thin;
+  text-align: left;
+  text-align: center;
+}
+
+a {
+  color: orange;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+li {
+  list-style-type: square;
+}
+
+li::first-letter {
+  font-size: x-large;
+}
+
+div1 {
+  position: fixed;
+  top: 20;
+  right: 20;
+  background-color: green;
+  padding-right: 10px;
+  padding-left: 30px;
+  opacity: 0.7;
+}
+
+div1:hover {
+  opacity: 1;
+}
+
+img {
+  display: block;
+  width: 120px;
+  height: 150px;
+  margin: auto;
+  padding: 10px;
+  outline-style: dashed;
+  outline-color: solid black;
+}
